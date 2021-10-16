@@ -21,6 +21,8 @@ public class TestSql {
     	session.commit();
     	user = userMapper.selectUserWithId(1) ;
     	
+    	session.commit();
+    	
     	System.out.println(user);
 	}
 	
