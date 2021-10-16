@@ -18,7 +18,7 @@ public class GetSessionFactory {
 		try {
 			InputStream inputStream = Resources.getResourceAsStream("conf.xml");
 		     sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-		
+		   System.out.println();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
